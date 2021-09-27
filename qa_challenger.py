@@ -31,7 +31,7 @@ chrome_options.add_argument("start-maximized")
 #chrome_options.add_argument('--disable-gpu')
 #chrome_options.add_argument('--disable-software-rasterizer')
 
-driver =  webdriver.Chrome('C:\\Novatics\\python\\driver\\chromedriver.exe',options=chrome_options) 
+driver =  webdriver.Chrome('C:\\git\\qa-challenger\\driver\\chromedriver.exe',options=chrome_options) 
 driver.maximize_window()
 driver.get("https://getlabor.com.br") 
 action = ActionChains(driver)
