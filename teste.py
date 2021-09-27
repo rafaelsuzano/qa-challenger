@@ -12,7 +12,7 @@ suite = unittest.TestSuite([FP])
 
 suite = unittest.TestSuite([suite])
 html_runner = HtmlTestRunner.HTMLTestRunner(report_title='QA-challenger', descriptions=u"Cenarios de teste",
-                                         combine_reports=True, output="C:\\Novatics\\python\\",
+                                         combine_reports=True, output="C:\\Users\\user\AppData\\Local\Jenkins\\.jenkins\workspace\qa-challenger\\",
                                          add_timestamp=False,
                                          report_name="QA-challenger",
                                          failfast = False,
